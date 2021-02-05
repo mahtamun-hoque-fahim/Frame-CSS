@@ -1,0 +1,69 @@
+*{
+    font-family:'Segoe UI';
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.video-background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 70%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.welcome-message{
+    padding: 5px;
+    margin: 0 3vw;
+}
+.welcome-message > h1,h2,h3{
+    font-family: Tahoma;
+    font-size: 30px;
+}
+#logo{
+    max-width: 100px;
+
+}
+.button{
+   padding: 10px 20px;
+   border: none;
+   border-radius: 20px;
+   color: black;
+}
+.button:hover{
+    background: black;
+    color: white;
+}
+
+#get-started{
+   background:linear-gradient(to right,rgb(0, 162, 255),cyan);
+   color: black;
+}
+#download{
+   background:linear-gradient(to right,rgb(153, 0, 255),blue);
+   color: white;
+}
+#get-started:hover{
+    background:linear-gradient(to right, rgb(2, 255, 2),rgb(170, 255, 0));
+    
+}
+#download:hover{
+    background: linear-gradient(to right, rgb(255, 2, 255),rgb(174, 0, 255));
+}
